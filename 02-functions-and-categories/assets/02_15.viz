@@ -1,0 +1,11 @@
+digraph {
+  layout=circo;normalize=true;
+  splines=line;bgcolor=transparent;
+  node [shape=circle,width=.3,fixedsize=true,penwidth=0];
+  edge [arrowhead=vee];
+
+  JEA -> JEB [label=JER];
+  A -> JEA [label=τ];
+  A -> B [label=R];
+  B -> JEB [label=τ];
+}

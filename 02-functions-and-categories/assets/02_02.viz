@@ -1,0 +1,11 @@
+digraph {
+  layout=circo;
+  splines=curved;bgcolor=transparent;
+  node [shape=circle,width=.3,fixedsize=true,penwidth=0];
+  edge [arrowhead=vee,constraint=false];
+
+  A -> B [label=h];
+  A -> C [label=g];
+  B -> A [label=f];
+  B -> C [label=k];
+}
